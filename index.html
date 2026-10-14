@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Syarifudin | Portofolio Informatika UNESA</title>
+    
+    <!-- Meta SEO & Open Graph -->
+    <meta name="description" content="Portofolio resmi Ahmad Syarifudin, Mahasiswa Informatika UNESA 2026. Menampilkan proyek, keterampilan, dan pengalaman pengembang teknologi.">
+    <meta name="author" content="Ahmad Syarifudin">
+    <meta property="og:title" content="Ahmad Syarifudin - Portofolio">
+    <meta property="og:description" content="Portofolio ini menampilkan proyek dan kontribusi saya sebagai pengembang di bidang teknologi.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon Emoji SVG -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navbar Sticky -->
+    <header class="navbar-header" id="navbar">
+        <div class="container nav-container">
+            <a href="#beranda" class="brand-logo" aria-label="Beranda syarifudin">
+                <span class="logo-accent">&gt;_</span> SELAMAT DATANG
+            </a>
+
+            <!-- Tombol Hamburger (Mobile) -->
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Buka Menu Navigasi" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Navigasi Utama -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang Saya</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+                    <li><a href="#pengalaman" class="nav-link">Pengalaman</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- 1. Section Beranda (Hero) -->
+        <section id="beranda" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content fade-element">
+                    <p class="hero-greeting font-mono">&gt; Halo Semua 👋, Saya</p>
+                    <h1 class="hero-title">Ahmad Syarifudin</h1>
+                    <p class="hero-subtitle font-mono">
+                        <span id="typing-text">Mahasiswa Baru Rumpun Informatika UNESA 2026</span>
+                        <span class="cursor-blink">|</span>
+                    </p>
+                    <p class="hero-description">
+                        Portofolio ini menampilkan proyek dan kontribusi saya sebagai pengembang di bidang teknologi.
+                    </p>
+                    <div class="hero-action">
+                        <a href="#kontak" class="btn btn-primary font-mono">&gt; Hubungi Saya</a>
+                    </div>
+                </div>
+
+                <div class="hero-avatar fade-element">
+                    <div class="avatar-wrapper">
+                        <!-- Menggunakan foto lokal di folder assets/ foto.jpg -->
+                        <img src="assets/arif.jpg" alt="Foto Profil Ahmad Syarifudin" class="avatar-img" width="280" height="280" loading="eager" style="object-fit: cover; object-position: center">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistik Ringkas -->
+            <div class="container hero-stats-container fade-element">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number font-mono">1</span>
+                        <span class="stat-label">Tahun Belajar Coding</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number font-mono">0</span>
+                        <span class="stat-label">Proyek Selesai</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number font-mono">0</span>
+                        <span class="stat-label">Teknologi Dikuasai</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Section Tentang Saya -->
+        <section id="tentang" class="section-padding">
+            <div class="container">
+                <div class="section-title-wrapper fade-element">
+                    <span class="section-tag font-mono">// 01. INTRODUKSI</span>
+                    <h2 class="section-title">Tentang Saya</h2>
+                </div>
+
+                <div class="about-grid fade-element">
+                    <div class="about-text">
+                        <p>
+                            Saya adalah seorang mahasiswa baru di rumpun Informatika Universitas Negeri Surabaya (UNESA) angkatan 2026 yang berdedikasi tinggi dalam mengeksplorasi dunia pengembangan perangkat lunak dan arsitektur sistem.
+                        </p>
+                        <p>
+                            Berfokus pada pembuatan aplikasi web yang bersih, efisien, serta aman. Saya selalu tertarik mempelajari logika pemrograman mendalam, optimasi performa, dan praktik terbaik dalam rekayasa perangkat lunak modern.
+                        </p>
+                    </div>
+
+                    <div class="skills-wrapper">
+                        <h3 class="skills-heading font-mono">&gt; Keahlian & Teknologi</h3>
+                        <div class="skills-tags" id="skills-container">
+                            <!-- Tag keahlian akan digenerate otomatis via JS atau static -->
+                            <span class="tag font-mono">JavaScript</span>
+                            <span class="tag font-mono">PHP</span>
+                            <span class="tag font-mono">Laravel</span>
+                            <span class="tag font-mono">React</span>
+                            <span class="tag font-mono">Git</span>
+                            <span class="tag font-mono">MySQL</span>
+                            <span class="tag font-mono">Python</span>
+                            <span class="tag font-mono">HTML5 / CSS3</span>
+                            <span class="tag font-mono">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Section Portfolio -->
+        <section id="portfolio" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-title-wrapper fade-element">
+                    <span class="section-tag font-mono">// 02. HASIL KARYA</span>
+                    <h2 class="section-title">Portfolio Proyek</h2>
+                </div>
+
+                <!-- Filter Kategori -->
+                <div class="filter-wrapper fade-element">
+                    <button class="filter-btn font-mono active" data-filter="all">[Semua]</button>
+                    <button class="filter-btn font-mono" data-filter="web">[Web]</button>
+                    <button class="filter-btn font-mono" data-filter="mobile">[Mobile]</button>
+                    <button class="filter-btn font-mono" data-filter="other">[Lainnya]</button>
+                </div>
+
+                <!-- Grid Proyek (Diisi via JavaScript) -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- JavaScript akan memasukkan card proyek di sini -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Section Pendidikan -->
+        <section id="pendidikan" class="section-padding">
+            <div class="container">
+                <div class="section-title-wrapper fade-element">
+                    <span class="section-tag font-mono">// 03. AKADEMIK</span>
+                    <h2 class="section-title">Riwayat Pendidikan</h2>
+                </div>
+
+                <div class="timeline fade-element">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date font-mono">2026 – Sekarang</span>
+                            <h3 class="timeline-title">Universitas Negeri Surabaya (UNESA)</h3>
+                            <p class="timeline-subtitle">S1 Informatika - Fakultas Teknik</p>
+                            <p class="timeline-desc">Fokus pada fondasi ilmu komputer, struktur data, pemrosesan algoritma, dan rekayasa sistem terdistribusi.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date font-mono">2023 – 2026</span>
+                            <h3 class="timeline-title">SMK Negeri 2 Surabaya</h3>
+                            <p class="timeline-subtitle">Jurusan Teknik Konstruksi Perumahan / TKP</p>
+                            <p class="timeline-desc">Ahli dalam pelaksanaan konstruksi bangunan, manajemen proyek lapangan, dan perhitungan anggaran biaya (RAB). Menguasai kompetensi teknis mulai dari pekerjaan struktur, finishing, hingga pengawasan mutu proyek sipil secara presisi dan efisien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   <!-- 5. Section Pengalaman -->
+        <section id="pengalaman" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-title-wrapper fade-element">
+                    <span class="section-tag font-mono">// 04. KARIR & ORGANISASI</span>
+                    <h2 class="section-title">Pengalaman Kerja</h2>
+                </div>
+
+                <div class="timeline fade-element">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date font-mono">Jul 2026 – Agt 2026</span>
+                            <h3 class="timeline-title">Road Pavement Survey (PUPR)</h3>
+                            <p class="timeline-subtitle">PT Mono Heksa · Purnawaktu (Jawa Timur, Indonesia)</p>
+                            <ul class="experience-list">
+                                <li>Berpengalaman di bidang teknik jalan raya dengan spesialisasi Road Pavement Survey berbasis standar Bina Marga (Kementerian PUPR).</li>
+                                <li><strong>Survei & Evaluasi Jalan:</strong> Evaluasi ketidakrataan permukaan jalan (IRI) dan analisis tingkat kerusakan perkerasan (PCI / SDI).</li>
+                                <li><strong>Sistem Manajemen Jalan:</strong> Pengolahan data survei ke dalam sistem IRMS (Integrated Road Management System) atau PKRMS untuk pemeliharaan berkala dan rekonstruksi.</li>
+                                <li><strong>Teknis & Pemetaan:</strong> Pemetaan koridor jalan menggunakan ArcGIS/QGIS, interpretasi gambar teknis AutoCAD Civil 3D, serta penerapan Spesifikasi Umum Bina Marga.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date font-mono">Mei 2026 – Jul 2026</span>
+                            <h3 class="timeline-title">Site Supervisor</h3>
+                            <p class="timeline-subtitle">PT Livin Spaze · Purnawaktu (Surabaya, Jawa Timur)</p>
+                            <ul class="experience-list">
+                                <li>Membantu pengawasan pekerjaan konstruksi untuk memastikan setiap kegiatan di lapangan berjalan dengan baik dan terarah.</li>
+                                <li>Memastikan kelengkapan administrasi serta surat izin yang diperlukan dalam pelaksanaan proyek.</li>
+                                <li>Mengelola logistik dan mengontrol penggunaan material agar sesuai dengan kebutuhan dan perencanaan proyek.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 6. Section Blog -->
+        <section id="blog" class="section-padding">
+            <div class="container">
+                <div class="section-title-wrapper fade-element">
+                    <span class="section-tag font-mono">// 05. ARTIKEL</span>
+                    <h2 class="section-title">Catatan & Blog</h2>
+                </div>
+
+                <div class="blog-grid fade-element">
+                    <article class="blog-card">
+                        <div class="blog-header">
+                            <span class="blog-date font-mono">12 Okt 2026</span>
+                            <span class="blog-category font-mono">Informatika</span>
+                        </div>
+                        <h3 class="blog-title">Memahami Algoritma Pencarian & Efisiensi Kompleksitas Time (Big O)</h3>
+                        <p class="blog-excerpt">
+                            Ulasan mendasar mengenai cara mengukur efisiensi algoritma sebelum menerapkannya ke dalam arsitektur sistem berskala besar.
+                        </p>
+                        <a href="#" class="blog-link font-mono" aria-label="Baca selengkapnya artikel Algoritma Pencarian">Baca Selengkapnya &rarr;</a>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-header">
+                            <span class="blog-date font-mono">28 Sep 2026</span>
+                            <span class="blog-category font-mono">Keamanan Web</span>
+                        </div>
+                        <h3 class="blog-title">Langkah Awal Mengamankan Input User pada Aplikasi PHP Murni</h3>
+                        <p class="blog-excerpt">
+                            Pencegahan serangan SQL Injection dan Cross-Site Scripting (XSS) dengan sanitasi variabel dan Prepared Statements.
+                        </p>
+                        <a href="#" class="blog-link font-mono" aria-label="Baca selengkapnya artikel Keamanan Web">Baca Selengkapnya &rarr;</a>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-header">
+                            <span class="blog-date font-mono">15 Aug 2026</span>
+                            <span class="blog-category font-mono">Tips Developer</span>
+                        </div>
+                        <h3 class="blog-title">Persiapan Menjadi Mahasiswa Baru Informatika UNESA 2026</h3>
+                        <p class="blog-excerpt">
+                            Panduan adaptasi tools dasar seperti Git, Linux Command Line, dan mentalitas problem solving untuk maba rumpun teknik.
+                        </p>
+                        <a href="#" class="blog-link font-mono" aria-label="Baca selengkapnya artikel Maba Informatika">Baca Selengkapnya &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Section Kontak -->
+        <section id="kontak" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-title-wrapper fade-element">
+                    <span class="section-tag font-mono">// 06. TRANSMISI</span>
+                    <h2 class="section-title">Kirim Pesan</h2>
+                </div>
+
+                <div class="contact-grid fade-element">
+                    <!-- Form Kontak -->
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="form-name" class="font-mono">Nama Lengkap *</label>
+                            <input type="text" id="form-name" name="name" class="form-input" placeholder="Masukkan nama Anda" required>
+                            <span class="form-error" id="error-name">Nama wajib diisi.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-email" class="font-mono">Email *</label>
+                            <input type="email" id="form-email" name="email" class="form-input" placeholder="nama@domain.com" required>
+                            <span class="form-error" id="error-email">Format email tidak valid.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-message" class="font-mono">Pesan *</label>
+                            <textarea id="form-message" name="message" rows="5" class="form-input" placeholder="Tuliskan pesan atau penawaran Anda..." required></textarea>
+                            <span class="form-error" id="error-message">Pesan wajib diisi (minimal 10 karakter).</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary font-mono" id="form-submit-btn">&gt; Kirim Pesan</button>
+                        
+                        <!-- Alert Sukses -->
+                        <div class="form-alert font-mono" id="form-success-alert" role="alert" aria-live="polite">
+                            [SUCCESS] Pesan Anda berhasil terkirim. Terima kasih!
+                        </div>
+                    </form>
+
+                   <!-- Informasi Kontak Tambahan -->
+                    <div class="contact-info">
+                        <h3 class="contact-info-title font-mono">&gt; Kanal Komunikasi</h3>
+                        <p class="contact-info-text">
+                            Silakan hubungi saya melalui form di samping atau melalui jaringan media sosial resmi berikut:
+                        </p>
+
+                        <div class="contact-methods">
+                            <!-- Email -->
+                            <a href="mailto:syarifudin.engineering@gmail.com" class="contact-item">
+                                <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                <span>syarifudin.engineering@gmail.com</span>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://instagram.com/aasyariff?exln=MTVkMXJrZHQwZ21zcg%3D%3D" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                                <span>Instagram / @aasyariff</span>
+                            </a>
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/ahmad-syarifudin-2ab417441?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                <span>LinkedIn / Ahmad Syarifudin</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copy font-mono">&copy; 2026 Ahmad Syarifudin. Hak Cipta Dilindungi.</p>
+            <a href="#beranda" class="back-to-top font-mono" aria-label="Kembali ke atas">[&uarr; Ke Atas]</a>
+        </div>
+    </footer>
+
+    <!-- Script Utama -->
+    <script src="js/main.js"></script>
+</body>
+</html>
